@@ -35,6 +35,4 @@ ITA has been tested on the following Machine Learning applications:
 
  ## References
 
-[1] Fasano, G., & Lucidi, S. (2009). A nonmonotone truncated Newton–Krylov
-     method exploiting negative curvature directions, for large scale unconstrained
-     optimization. Optimization Letters, 3(4), 521-535.
+[1] Fukumizu, K., & Amari, S. I. (2000). Local minima and plateaus in hierarchical structures of multilayer perceptrons. Neural networks, 13(3), 317-327.
