@@ -35,6 +35,6 @@ ITA has been tested on the following Machine Learning applications:
 
  ## References
 
-[1] Fukumizu, K., & Amari, S. I. (2000). Local minima and plateaus in hierarchical structures of multilayer perceptrons. Neural networks, 13(3), 317-327.
+[1] De Santis, A., Liuzzi, G., Lucidi, S., & Tronci, E. M. (2021). Avoiding local minima in multilayer network optimization by incremental training. arXiv preprint arXiv:2106.06477.
 
-[2] De Santis, A., Liuzzi, G., Lucidi, S., & Tronci, E. M. (2021). Avoiding local minima in multilayer network optimization by incremental training. arXiv preprint arXiv:2106.06477.
+[2] Fukumizu, K., & Amari, S. I. (2000). Local minima and plateaus in hierarchical structures of multilayer perceptrons. Neural networks, 13(3), 317-327.
