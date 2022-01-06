@@ -91,11 +91,6 @@ from adult import X_train, y_train
 ############################################################
 # from qsar import X_train, y_train
 
-############################################################
-# import train data for the adult dataset
-############################################################
-# from yearpred import X_train, y_train
-
 X_train, y_train = map(torch.tensor, (X_train, y_train))
 X_train = X_train.double()
 y_train = y_train.double()
@@ -340,7 +335,7 @@ nrnd          = 10
 TABF          = np.zeros((maxiter_tot+1,2*nrnd))
 MAXIT         = np.zeros(2*nrnd)
 
-# DATA = np.load('blogdata_100_20_res.npy',allow_pickle='TRUE').item()
+# DATA = np.load('qsar_10_100_res.npy',allow_pickle='TRUE').item()
 # TABF = DATA['TABF']
 # MAXIT = DATA['MAXIT']
 
@@ -522,7 +517,7 @@ for imeth in [1, 2]:
         MAXIT[(imeth-1)*nrnd+irnd] = niter_tot
 
 DATA = {'TABF': TABF, 'MAXIT': MAXIT, 'nrnd': nrnd}
-# np.save('yearpred_10_100_res.npy', DATA) 
+# np.save('qsar_10_100_res.npy', DATA) 
 
 F1 = []
 F2 = []
@@ -542,7 +537,7 @@ plt.yscale("log")
 fig_boxplot = plt.figure()
 plt.boxplot([F1,F2])
 
-# pp = PdfPages("Risultati YEARPRED/Results YearPred 10-%i neurons.pdf" %nneu_tot)
+# pp = PdfPages("Results Qsar 10-%i neurons.pdf" %nneu_tot)
 # pp.savefig(fig_loss, dpi = 300, transparent = True)
 # pp.savefig(fig_boxplot, dpi = 300, transparent = True)
 # pp.close()
