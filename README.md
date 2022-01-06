@@ -1,6 +1,6 @@
 # Incremental Training Algorithm (ITA)
 
-ITA python code (see [1],[2]). The implementation uses python+pytorch
+ITA python code (see [1]). The implementation uses python+pytorch
 
 ## Machine Learning applications
 
