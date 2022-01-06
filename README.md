@@ -19,7 +19,6 @@ ITA has been tested on the following Machine Learning applications:
 - MNIST Handwritten Digit
 - Mv
 - QSAR Oral Toxicity
-- YearPred
 
 ## Authors
 #### A. De Santis<sup>1</sup>, G. Liuzzi<sup>1</sup>, S. Lucidi<sup>1</sup>, E.M. Tronci<sup>1</sup>
