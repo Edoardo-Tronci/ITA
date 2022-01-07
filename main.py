@@ -81,19 +81,9 @@ from adult import X_train, y_train
 # from mv import X_train, y_train
 
 #########################################################################
-# import train data for the Power Consumption dataset
-#########################################################################
-# from power import X_train, y_train
-
-#########################################################################
 # import train data for the QSAR dataset
 #########################################################################
 # from qsar import X_train, y_train
-
-#########################################################################
-# import train data for the YearPred dataset
-#########################################################################
-# from yearpred import X_train, y_train
 
 X_train, y_train = map(torch.tensor, (X_train, y_train))
 
