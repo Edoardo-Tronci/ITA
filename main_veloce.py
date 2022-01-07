@@ -27,67 +27,67 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 
 ############################################################
-# import train data del dataset di Terna
+# import train data from the Adult dataset
 ############################################################
 from adult import X_train, y_train
 
 ############################################################
-# import train data from the MNIST 784 (zalando) dataset
+# import train data from the Ailerons dataset
 ############################################################
 # from ailerons import X_train, y_train
 
 ############################################################
-# import train data from the MNIST dataset
+# import train data from the Appliances Energy Prediction dataset
 ############################################################
 # from appliances import X_train, y_train
 
 ############################################################
-# import train data from the YearPredictionMSD dataset
+# import train data from the Arcene dataset
 ############################################################
 # from arcene import X_train, y_train
 
 ############################################################
-# import train data from the teacher dataset
+# import train data from the BlogFeedback dataset
 ############################################################
 #from blogfeed import X_train, y_train, teach
 
 ############################################################
-# import train data from the iris dataset
+# import train data from the Boston House Prices dataset
 ############################################################
 # from boston_house import X_train, y_train
 
 ############################################################
-# import train data from the breast cancer dataset
+# import train data from the Breast Cancer Wisconsin (Diagnostic) dataset
 ############################################################
 # from breast_cancer import X_train, y_train
 
 ############################################################
-# import train data for the SEATTLE HOUSE SALES dataset
+# import train data for the CIFAR 10 dataset
 ############################################################
 # from cifar10 import X_train, y_train
 
 ############################################################
-# import train data for the MV dataset
+# import train data for the Gisette dataset
 ############################################################
 # from gisette import X_train, y_train
 
 ############################################################
-# import train data for the ailerons dataset
+# import train data for the Iris dataset
 ############################################################
 # from iris import X_train, y_train
 
 ############################################################
-# import train data for the blogdata dataset
+# import train data for the MNIST Handwritten Digit dataset
 ############################################################
 # from mnist import X_train, y_train
 
 ############################################################
-# import train data for the arcene dataset
+# import train data for the Mv dataset
 ############################################################
 # from mv import X_train, y_train
 
 ############################################################
-# import train data for the gisette dataset
+# import train data for the QSAR dataset
 ############################################################
 # from qsar import X_train, y_train
 
