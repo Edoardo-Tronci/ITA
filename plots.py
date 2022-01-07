@@ -43,14 +43,8 @@ if which == 12:
 if which == 13:
     DATA = np.load('qsar_10_100_res.npy',allow_pickle='TRUE').item()
     datasetname = 'QSAR Oral Toxicity'
-if which == 14:
-    DATA = np.load('power_10_100_res.npy',allow_pickle='TRUE').item()
-    datasetname = 'Power Consumption Dataset'
-if which == 15:
-    DATA = np.load('yearpred_10_100_res.npy',allow_pickle='TRUE').item()
-    datasetname = 'YearPred Dataset'
 
-
+    
 TABF = DATA['TABF']
 MAXIT = DATA['MAXIT']
 # TABF = DATA['TABF'][:500]
