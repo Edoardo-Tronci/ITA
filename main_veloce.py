@@ -9,7 +9,7 @@ import time
 import math
 import numpy as np
 import sys
-sys.path.append('../Datasets')
+sys.path.append('Datasets')
 import troncato_veloce as ott
 import torch
 torch.set_default_dtype(torch.double)
